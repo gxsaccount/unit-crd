@@ -1,0 +1,6 @@
+domain: my.crd.com
+layout:
+- go.kubebuilder.io/v3
+projectName: unit-crd
+repo: example.com/m
+version: "3"
