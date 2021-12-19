@@ -3,4 +3,14 @@ layout:
 - go.kubebuilder.io/v3
 projectName: unit-crd
 repo: example.com/m
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: my.crd.com
+  group: custom
+  kind: Unit
+  path: example.com/m/api/v1
+  version: v1
 version: "3"
